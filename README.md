@@ -25,7 +25,7 @@
 ## Description
 
 This is a proof of concept to validate that it is possible for me to download all images using just one url.
-It's a simple api with nestjs documented with swagger.
+It's a simple api using nestjs documented with swagger.
 
 ## Installation
 
