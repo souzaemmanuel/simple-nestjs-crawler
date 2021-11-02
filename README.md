@@ -28,7 +28,7 @@ This is a proof of concept to validate that it is possible for me to download al
 
 It's a simple api using nestjs documented with swagger.
 
-- It's also simple to use, just call the endpoint http://localhost:3000/importImage and pass in the request body an object similar to:
+- It's also simple to use, just call the endpoint (POST method) http://localhost:3000/importImage and pass in the request body an object similar to:
 
 ```bash
 {
