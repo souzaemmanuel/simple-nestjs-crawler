@@ -25,7 +25,18 @@
 ## Description
 
 This is a proof of concept to validate that it is possible for me to download all images using just one url.
+
 It's a simple api using nestjs documented with swagger.
+
+- It's also simple to use, just call the endpoint http://localhost:3000/importImage and pass in the request body an object similar to:
+
+```bash
+{
+  "url": "https://www.google.com/"
+}
+```
+
+- And all images in jpg, svg, gif and png format will be saved in the images folder.
 
 ## Installation
 
