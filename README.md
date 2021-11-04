@@ -24,11 +24,11 @@
 
 ## Description
 
-This is a proof of concept to validate that it is possible for me to download all images using just one url.
+This is a proof of concept to validate if is possible to download all images using inside a page.
 
-It's a simple api using nestjs documented with swagger.
+It's a simple api using nestjs documented with swagger and the main dependeci is puppetter
 
-- It's also simple to use, just call the endpoint (POST method) http://localhost:3000/importImage and pass in the request body an object similar to:
+- Just call the endpoint (POST) http://localhost:3000/importImage and pass in the request body an object similar to:
 
 ```bash
 {

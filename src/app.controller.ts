@@ -1,5 +1,4 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
-import { AppService } from './app.service';
+import { Body, Controller, Post } from '@nestjs/common';
 const puppeteer = require('puppeteer');
 const https = require('https');
 const fs = require('fs');
